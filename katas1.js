@@ -68,10 +68,17 @@ console.log(multiplesOfFive());
 
 function squareNumbers() {
 
- 
-  /////Aaaaaaa nao seiiii to boladogit
+    let perf = [1,4,9,16,25,36,49,64,81,100]
 
- 
+    let c = 0;
+    while(c <= perf.length){
+
+      console.log(perf[c]);
+      c++;
+    }
+  
+
+ // So não sei se esta correto mas foi a respota mais proxima que consegui fazer
 
   
     
@@ -141,9 +148,19 @@ console.log(multiplesOfFiveBackwards());
 
 function squareNumbersBackwards() {
     
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+      let quadrado = [100,81,64,49,36,25,16,9,4,1]
+
+      let i = 0
+
+      while(i <= quadrado.length){
+
+            console.log(quadrado[i]);
+            i++;        
+      }
+
+
+
 }
 
-//call function squareNumbersBackwards
+console.log(squareNumbersBackwards());
+
